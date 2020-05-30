@@ -12,7 +12,9 @@ html {
 h1 {
   font-family: "Nunito", sans-serif !important;
 }
-
+#hover-color {
+  color: rgb(206, 206, 206);
+}
 h2,
 h3,
 h4,
@@ -26,7 +28,10 @@ img {
   border-radius: 10px;
   transition: 0.3s;
 }
-
+#first-img, #third-img {
+  width: 462px;
+    height: 220.5px;
+}
 .wrapper {
   background: #e3e3e3;
 }
