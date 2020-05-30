@@ -22,8 +22,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
 	<link rel="stylesheet" href="assets/styles/styles.css">
+	<script src="./assets/scripts/hover.js"></script>
 </head>
-	
+
 <body>
 	<div class="wrapper">
 		<section id="about">
@@ -100,14 +101,14 @@
 
 			<div class="row work-row"> <!-- odd -->
 				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/Hakan Yıldız_GoogleMaps5daysProject.png" alt="google-maps-project">
+					<img id="first-img" onmouseover="hoverImages1()" onmouseout="hoverImages1Out()" src="assets/images/Hakan Yıldız_GoogleMaps5daysProject.png" alt="google-maps-project">
 				</div>
 				<div class="small-12 medium-5 medium-pull-7 columns">
 					<div class="details details-ftm">
 						<h3>Google Maps Project</h3>
 						<p class="platform">GitHub</p>
 						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>This is the project that I have done in 5 days with the Clever Programmer Challenge.</p>
+						<p>This is the project that I have done in 5 days with the Clever Programmer Challenge.<span id="hover-color"> (Hover the image for a quick tutorial!)</span></p>
 						<a class="my-button" target="_blank" href="https://ihakan.github.io/google-maps-project">Visit Website</a>
 					</div>
 				</div>
@@ -130,26 +131,18 @@
 
 			<div class="row work-row"> <!-- odd -->
 				<div class="small-12 medium-6 medium-push-6 columns">
-					<img src="assets/images/team-a-project.png" alt="Team-A">
+					<img id="third-img" onmouseover="hoverImages3()" onmouseout="hoverImages3Out()" src="assets/images/team-a-project.png" alt="Team-A">
 				</div>
 				<div class="small-12 medium-5 medium-pull-7 columns">
 					<div class="details details-ftm">
 						<h3>Team-A Project</h3>
 						<p class="platform">GitHub</p>
 						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>This is a project from the team I joined for the HTML/CSS.</p>
+						<p>This is a project from the team I joined for the HTML/CSS.<span id="hover-color"> (Hover the image for a quick tutorial!)</span></p>
 						<a class="my-button" target="_blank" href="https://atessutoprak.github.io/Team-A/">Visit Website</a>
 					</div>
 				</div>
 			</div>
-
-
-
-
-
-
-
-
 
 		</section>
 
@@ -189,9 +182,6 @@
 				</div>
 			</div>
 		</footer>
-
-
-
 	</div>
 	<script src="assets/scripts/app.js" charset="utf-8"></script>
 </body>
