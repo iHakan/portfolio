@@ -165,7 +165,7 @@ img {
 }
 
 .cta .cta-button {
-  color: #cc4b37;
+  color: rgba(255, 103, 68, 0.91);
   text-transform: uppercase;
   border: 2px solid rgba(255, 103, 68, 0.91);
   border-radius: 50px;
@@ -395,6 +395,6 @@ img {
 }
 
 a[class^="my-button"]:active {
-  background-color: #4C4C4E !important;
-  border-color: #4C4C4E !important;
+  background-color: #4c4c4e !important;
+  border-color: #4c4c4e !important;
 }
