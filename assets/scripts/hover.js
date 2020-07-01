@@ -16,7 +16,7 @@ function hoverImages2() {
   var projectImages = document.getElementById("gitcamp-img");
   projectImages.setAttribute("src", "assets/images/GitcampGif.gif");
 }
-function hoverImages3Out() {
+function hoverImages2Out() {
   var projectImages = document.getElementById("gitcamp-img");
   projectImages.setAttribute("src", "assets/images/GitCamp.png");
 }
